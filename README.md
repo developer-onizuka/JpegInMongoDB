@@ -45,13 +45,14 @@ $ func kubernetes delete --name rabbitmq-to-hybridcloud --registry 192.168.1.5:5
 # 3. Find Data in MongoDB
 You can see the Base64 Encoded string. It is the Jpeg file which you put in /home/vagrant/Downloads and sent to rabbitMQ.
 
-<img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB1.png" width="640"> <br>
+<img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB1.png" width="720"> <br>
 
 
 # 4. Search Employee by EmployeeID
 
 <img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB2.png" width="360"> <br>
 
-# 5. Put a jpeg image individually thru app ([developeronizuka/emploee2 in dockerHub](https://hub.docker.com/repository/registry-1.docker.io/developeronizuka/employee2/general))
+# 5. Put a jpeg image individually thru app
+[developeronizuka/emploee2 in dockerHub](https://hub.docker.com/repository/registry-1.docker.io/developeronizuka/employee2/general)<br>
 
 <img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB3.png" width="360"> <br>
