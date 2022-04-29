@@ -2,6 +2,9 @@
 In MongoDB, you can use the BSON binary type to store any kind of binary data.
 
 # 1. Publish a large number of messages via DLX
+Put the number of 10000 jpeg images in /home/vagrant/Downloads/image/. <br>
+No problem even if they are all copied file from the same image file. But the names of file should be image1.jpg, image2.jpg, ..., image10000.jpg.
+
 ```
 export RABBITMQ_IPADDR="192.168.33.220"
 export RABBITMQ_DLX="dlx.employee-queue"
@@ -11,6 +14,8 @@ export RABBITMQ_MESSAGECOUNT="10000"
 $ cd rabbitMQ_KEDA_Csharp/sendImage-to-rabbitmqDLX
 $ dotnet run
 ```
+
+After issue dotnet run, you can find 10000 of messages on the employee-queue which are waiting to be consumed by consumer.
 
 # 2. Consume them thru the DLX aware App
 ```
