@@ -1,5 +1,5 @@
 # JpegInMongoDB
-In MongoDB, you can use the BSON binary type to store any kind of binary data.
+In MongoDB, you can use the BSON binary type to store any kind of binary data. This repo is to understand how to store it.
 
 # 1. Publish a large number of messages via DLX
 Put the number of 1000 jpeg images in /home/vagrant/Downloads/. <br>
