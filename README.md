@@ -42,13 +42,18 @@ EOF
 $ func kubernetes delete --name rabbitmq-to-hybridcloud --registry 192.168.1.5:5000 --max-replicas 16 --polling-interval 5 --cooldown-period 30
 ```
 
-# 3. Find Data in MongoDB
+# 3. Bring up each micro service in kubernetes
+
+> https://github.com/developer-onizuka/hybridCloud
+
+
+# 4. Find Data in MongoDB
 You can see the Base64 Encoded string. It is the Jpeg file which you put in /home/vagrant/Downloads and sent to rabbitMQ.
 
 <img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB1.png" width="720"> <br>
 
 
-# 4. Search Employee by EmployeeID
+# 5. Search Employee by EmployeeID
 
 <img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB2.png" width="360"> <br>
 
