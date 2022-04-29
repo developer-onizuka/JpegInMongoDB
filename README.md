@@ -8,7 +8,7 @@ No problem even if they are all copied file from the same image file. But the na
 ```
 export RABBITMQ_IPADDR="192.168.33.220"
 export RABBITMQ_DLX="dlx.employee-queue"
-export RABBITMQ_MESSAGECOUNT="10000"
+export RABBITMQ_MESSAGECOUNT="1000"
 ```
 ```
 $ cd rabbitMQ_KEDA_Csharp/sendImage-to-rabbitmqDLX
