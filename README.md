@@ -2,8 +2,8 @@
 In MongoDB, you can use the BSON binary type to store any kind of binary data.
 
 # 1. Publish a large number of messages via DLX
-Put the number of 10000 jpeg images in /home/vagrant/Downloads/. <br>
-No problem even if they are all copied file from the same image file. But the names of file should be image1.jpg, image2.jpg, ..., image10000.jpg.
+Put the number of 1000 jpeg images in /home/vagrant/Downloads/. <br>
+No problem even if they are all copied file from the same image file. But the names of file should be image1.jpg, image2.jpg, ..., image1000.jpg.
 
 ```
 export RABBITMQ_IPADDR="192.168.33.220"
@@ -44,3 +44,6 @@ $ func kubernetes delete --name rabbitmq-to-hybridcloud --registry 192.168.1.5:5
 
 # 3. 
 
+<img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB1.png" width="360"> <br>
+<img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB2.png" width="360"> <br>
+<img src="https://github.com/developer-onizuka/JpegInMongoDB/blob/main/jpegInMongoDB3.png" width="360"> <br>
