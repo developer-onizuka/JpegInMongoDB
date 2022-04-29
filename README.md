@@ -15,7 +15,7 @@ $ cd rabbitMQ_KEDA_Csharp/sendImage-to-rabbitmqDLX
 $ dotnet run
 ```
 
-After issue dotnet run, you can find 10000 of messages on the employee-queue which are waiting to be consumed by consumer.
+After issue dotnet run, you can find 1000 of messages on the employee-queue which are waiting to be consumed by consumer.
 
 # 2. Consume them thru the DLX aware App
 ```
